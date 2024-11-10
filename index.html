@@ -2,20 +2,22 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>수수께끼</title>
+    <title>첫번째 수수께끼</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.5">
 </head>
 <body>
     <p>Q1</p>
-    <img src="images/Q1_1.png" alt="축하 이미지">
-    <img src="images/Q1_2.png">
+    <img src="images/Q1_1.jpeg" alt="문제 이미지">
+    <p>그림과 같이 돌고 도는 숫자에는</p>
+    <p>어떤 규칙이 있다.</p>
+    <p>? 에 들어가는 숫자는 무엇일까?</p>
     <p></p>
     <input type="text" id="answer" placeholder="정답을 입력하세요">
     <button onclick="checkAnswer()">제출</button>
     <script>
         function checkAnswer() {
             var answer = document.getElementById('answer').value.trim();
-            if (answer === '6') { // 정답을 '6'로 설정
+            if (answer === '89') { // 정답을 '89'로 설정
                 window.location.href = 'Q#A1ur.html';
             } else {
                 alert('틀렸습니다. 다시 시도해보세요.');
